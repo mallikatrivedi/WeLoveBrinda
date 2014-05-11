@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.whosaidit.app.MainActivity">
+
+    <TextView
+        android:id="@+id/main_heading"
+        style="@style/menu_heading"
+        android:text="@string/main_heading" />
+
+    <Button
+        android:id="@+id/who_said_it"
+        style="@style/menu_button"
+        android:text="Guess Who Says What" />
+
+    <Button
+        android:id="@+id/memory_game"
+        style="@style/menu_button"
+        android:text="Check My Memory" />
+
+    <Button
+        android:id="@+id/other_games"
+        style="@style/menu_button"
+        android:text="Anything not related to us!" />
+
+
+</LinearLayout>
