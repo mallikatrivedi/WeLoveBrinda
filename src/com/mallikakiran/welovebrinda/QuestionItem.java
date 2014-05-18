@@ -2,16 +2,12 @@ package com.mallikakiran.welovebrinda;
 
 public class QuestionItem {
 	
-	public enum Person {
-	    MALLIKA, TONGTONG, HENRYCHUNG 
-	}
-	
 	private String question;
-	private Person answer;
+	private String answer;
 	private String correct;
 	private String wrong;
 	
-	public QuestionItem(String ques, Person ans, String correct, String wrong){
+	public QuestionItem(String ques, String ans, String correct, String wrong){
 		this.question = ques;
 		this.answer = ans;
 		this.correct = correct;
@@ -22,7 +18,7 @@ public class QuestionItem {
 		return question;
 	}
 
-	public Person getAnswer() {
+	public String getAnswer() {
 		return answer;
 	}
 
